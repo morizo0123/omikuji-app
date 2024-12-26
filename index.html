@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>おみくじアプリ</title>
+  </head>
+  <body>
+    <h1>おみくじアプリ</h1>
+
+    <!-- おみくじの種類を選ぶセレクトボックス -->
+    <select id="fortuneType">
+      <option value="general">一般運</option>
+      <option value="love">恋愛運</option>
+      <option value="money">金運</option>
+    </select>
+
+    <!-- おみくじを引くボタン -->
+    <button id="drawButton">おみくじを引く</button>
+
+    <!-- 結果を表示する部分 -->
+    <p id="result"></p>
+
+    <!-- おみくじの履歴を表示する部分 -->
+    <div id="history"></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
